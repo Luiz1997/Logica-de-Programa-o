@@ -1,0 +1,7 @@
+<?php
+print "Digite um numero: ";
+$x = trim(fgets(STDIN));
+
+while ($x != 0) {
+	
+}

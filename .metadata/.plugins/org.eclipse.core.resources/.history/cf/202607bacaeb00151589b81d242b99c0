@@ -1,0 +1,10 @@
+<?php
+print "Digite um numero: ";
+$x = trim(fgets(STDIN));
+
+while ($x != 0) {
+	print "Digite outro; ";
+	$x = trim(fgets(STDIN));	
+}
+
+print "Media aritmetica: ";

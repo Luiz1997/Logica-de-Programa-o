@@ -1,0 +1,10 @@
+<?php
+print "Digite um numero: ";
+$x = trim(fgets(STDIN));
+
+$soma = $x + $soma;
+
+while ($x != 0) {
+	print "\nSoma dos numeros: ".$soma;
+	$x = trim(fgets(STDIN));
+}
