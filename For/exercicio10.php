@@ -1,0 +1,10 @@
+<?php
+/* Fazer um programa que leia um número inteiro X. Daí, mostrar a tabuada de multiplicação deste número para os valores de 1 a
+10. */
+print "Valor para multiplicação: ";
+$x = trim(fgets(STDIN));
+
+for ($i=1; $i<=10; $i++) {
+	$m = $i * $x;
+	print "\n$x x $i = $m" ;
+}
