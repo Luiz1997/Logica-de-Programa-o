@@ -1,0 +1,14 @@
+<?php
+print "Qual o valor de N? ";
+$N = trim(fgets(STDIN));
+
+$soma = 0;
+for ($i=0; $i<=$N; $i++) {
+	print "3^$i ";
+	if ($i < $N) {
+		print "+ ";
+	}
+	$soma = $soma + pow(3, $i);
+}
+
+print "= $soma\n";
